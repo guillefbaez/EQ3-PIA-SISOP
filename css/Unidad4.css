@@ -1,0 +1,143 @@
+/* Inicio de Barra de navegación*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: linear-gradient(to right, rgb(20, 194, 40), rgb(84, 110, 68));
+    width:100%;
+    height: 100vh;
+    
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    width: 250px;
+    height: auto;
+}
+
+.menu{
+    font-family: 'Roboto', sans-serif;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.menu a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+h1{
+    color:black;
+    font-size: 45px;
+}
+
+a:hover{
+    color: rgb(40, 9, 243);
+}
+
+html{
+    scroll-behavior: smooth;
+}
+  .dropdownActFunda{
+    position: relative;
+  }
+  .dropdownSisOp{
+    position: relative;
+  }
+  .dropdownActFunda-content{
+    display: none; 
+    position: absolute; 
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1; 
+  }
+  .dropdownSisOp-content{
+    display: none; 
+    position: absolute; 
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1; 
+  }
+  .dropdownActFunda:hover .dropdownActFunda-content{
+    display: block;
+  }
+  .dropdownSisOp:hover .dropdownSisOp-content{
+    display: block;
+  }
+  .dropdownActFunda-content li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .dropdownSisOp-content li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .dropdownActFunda-content li a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  .dropdownSisOp-content li a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  .dropdownActFunda-content a:hover {
+    background-color: #ffffff;
+  }
+  .dropdownSisOp-content a:hover {
+    background-color: #ffffff;
+  }
+/* Fin de Barra de navegación*/
+/* Inicio de Unidad 4*/
+
+h1{
+    font-family: 'Roboto', sans-serif; 
+    font-size: 40px; 
+    color:rgb(251, 251, 251); 
+    text-align: center; 
+    margin-bottom: 20px; 
+}
+h2{
+    font-family: 'Roboto', sans-serif; 
+    font-size: 25px; 
+    color:rgb(68, 18, 129); 
+    text-align: center; 
+    margin-bottom: 20px; 
+}
+
+p, article{
+    font-family: 'Roboto', sans-serif; 
+  font-size: 16px; 
+  line-height: 1.5; 
+  color: #000000; 
+  text-align: center; 
+  }
+/*Fin de Unidad 4*/
